@@ -11,7 +11,7 @@ public class ex3 {
         System.out.println("Qual a massa inicial em gramas");
         massaAtual = sc.nextDouble();
         massaInicial = massaAtual;
-        while (massaAtual >= 0.5) {
+        while (massaAtual > 0.5) {
 
             massaAtual = (massaAtual / 2);
             tempo = tempo + 50;
